@@ -1,0 +1,6 @@
+alias l="la -la"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias rr="rm -rf"
+alias -- -="cd -"
