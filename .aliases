@@ -1,6 +1,9 @@
-alias l="la -la"
+# Return to previous directories
+alias -- -="cd -"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+alias l="la -la"
+
 alias rr="rm -rf"
-alias -- -="cd -"
