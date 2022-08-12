@@ -1,3 +1,6 @@
+# Replace sudo
+alias _="sudo"
+
 # Return to previous directories
 alias -- -="cd -"
 alias ..="cd .."
