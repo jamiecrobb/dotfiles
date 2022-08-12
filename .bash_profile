@@ -1,2 +1,2 @@
-source .env
-source .aliases
+source ~/.dotfiles/.env
+source ~/.dotfiles/.aliases
