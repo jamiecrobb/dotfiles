@@ -1,0 +1,6 @@
+# shortcut to run reaver docket container
+alias run_reaver="sudo docker run --rm -it --privileged --net=host --pid=host finchsec/reaver"
+
+# shortcut to switch wifi card between monitor mode and managed mode
+alias wmonitor="sudo ~/scripts/wifi_monitor.sh"
+alias wmanaged="sudo ~/scripts/wifi_managed.sh" 

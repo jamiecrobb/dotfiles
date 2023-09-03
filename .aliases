@@ -1,11 +1,15 @@
 # Replace sudo
 alias _="sudo"
 
-# Remap python to python3
-alias python="python3"
+# tmux
+alias t="tmux"
+alias ta="t a -t"
+alias tls="t ls"
+alias tn="t new -t"
 
-# Clear terminal and rerun last command
-alias !!="clear && !!"
+# Docker
+alias drun="sudo docker run -it"
+
 # Return to previous directories
 alias -- -="cd -"
 alias ..="cd .."
@@ -38,3 +42,5 @@ alias pull='git pull origin'
 alias push='git push origin'
 alias stat='git status'  # 'status' is protected name so using 'stat' instead
 
+# Python
+alias python='python3'
