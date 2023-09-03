@@ -1,6 +1,11 @@
 # Replace sudo
 alias _="sudo"
 
+# Remap python to python3
+alias python="python3"
+
+# Clear terminal and rerun last command
+alias !!="clear && !!"
 # Return to previous directories
 alias -- -="cd -"
 alias ..="cd .."
@@ -19,7 +24,7 @@ alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
 
-alias rr="rm -rf" # recursive remove
+# alias rr="rm -rf" # recursive remove
 
 # git
 alias addup='git add -u'
