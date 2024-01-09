@@ -26,7 +26,7 @@ alias l.='exa -a | egrep "^\."' # list only dotfiles
 # confirm before overwriting something
 alias cp="cp -i"
 alias mv='mv -i'
-alias rm='rm -i'
+# alias rm='rm -i'
 
 # alias rr="rm -rf" # recursive remove
 
