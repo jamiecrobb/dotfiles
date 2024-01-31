@@ -1,4 +1,5 @@
 # tmux
+alias t="tmux"
 alias tn="t new -t"
 
 # Return to previous directories
