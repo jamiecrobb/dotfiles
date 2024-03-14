@@ -117,6 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 source ~/.config/.aliases
+export TMUX_CONFIG="$HOME/.config"
 
 # UGRDV - currently commented out for group project
 # source /home/jamie/.ugrdv_setup.bash
